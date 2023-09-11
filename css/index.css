@@ -1,24 +1,2 @@
-.block {
-  display: block;
-}
-
-.card {
-  display: block;
-  margin: 30px;
-  max-width: 100%;
-  width: 400px;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-}
-.card .card-title {
-  font-size: 1rem;
-  padding-bottom: 0.75rem;
-  font-weight: bold;
-}
-.card .card-body {
-  font-size: 1rem;
-}
-.card .card-body a {
-  text-decoration: underline;
-}
+@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Bold.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Bold.woff) format("woff");font-weight:bold;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Light.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Light.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-MediumItalic.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-MediumItalic.woff) format("woff");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-BoldItalic.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-BoldItalic.woff) format("woff");font-weight:bold;font-style:italic;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Medium.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Medium.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Italic.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Italic.woff) format("woff");font-weight:normal;font-style:italic;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-LightItalic.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-LightItalic.woff) format("woff");font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-ThinItalic.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-ThinItalic.woff) format("woff");font-weight:100;font-style:italic;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Regular.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Regular.woff) format("woff");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:"Roboto";src:url(../../fonts/Roboto/Roboto-Thin.woff2) format("woff2"),url(../../fonts/Roboto/Roboto-Thin.woff) format("woff");font-weight:100;font-style:normal;font-display:swap}body{font-family:"robotoRegular"}.btn-white{border:1px solid #fff;background:#fff;color:#1859a3;border-radius:20px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;transition:all .3s ease;width:100px;height:20px;padding:13.5px 20px;margin-bottom:7px;margin-top:23px}.block{margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh}.main-section__section-one{background-color:#1859a3;width:415px;height:315px;color:#fff;border-radius:16px;display:flex;flex-direction:column;align-items:center}.main-section__section-one__title{text-transform:uppercase;font-size:32px;margin-top:52px}.main-section__section-two{background-color:#70a8e7;width:579px;height:597px;color:#fff;border-radius:16px;display:flex;flex-direction:column;align-items:center}
+/*# sourceMappingURL=index.css.map */
