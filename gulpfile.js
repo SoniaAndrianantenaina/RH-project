@@ -4,6 +4,9 @@ const lineec = require("gulp-line-ending-corrector");
 const sourcemaps = require("gulp-sourcemaps");
 const gulp = require("gulp")
 
+var fontsSRC = "assets/fonts/**/*",
+  fontsDEST = "css/fonts";
+
 function buildStyles() {
   return src("assets/scss/**/*.scss")
     .pipe(sourcemaps.init()) // Initialise les sourcemaps
@@ -30,5 +33,9 @@ function css() {
     .pipe(gulp.dest("dist/css", { sourcemaps: "." }));
 }
 
-const build = gulp.series(buildStyles, watchTask, css)
+function fonts() {
+  return gulp.src(fontsSRC).pipe(gulp.dest(fontsDEST));
+}
+
+const build = gulp.series(buildStyles, watchTask, css, fonts)
 gulp.task("build", build);

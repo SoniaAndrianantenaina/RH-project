@@ -6,10 +6,10 @@
     min-height: 100vh;
 }
 
-.main-section{
-    &__section-one {
+.main-section {
+    &.section-one {
         background-color: $color-primary;
-        width: 415px;
+        width: 385px;
         height: 315px;
         color: $white;
         border-radius: 16px;
@@ -21,18 +21,23 @@
             text-transform: uppercase;
             font-size: 32px;
             margin-top: 52px;
+            font-weight: bold;
         }
     }
 
-    &__section-two{
+    &.section-two {
         background-color: $color-secondary;
-        width: 579px;
-        height: 597px;
-        color: $white;
-        border-radius: 16px;
+        width: 525px;
+        height: 566px;
+        color: #fff;
+        border-radius: 25px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
-    
+
+.adjust-position{
+    margin-bottom: 15px;
+    margin-top: 115px;
+}
