@@ -6,6 +6,12 @@
     <title>Accueil Admin</title>
 </head>
 <body>
-    
+    <?php include 'header.html'; ?>
+
+    <div class="banner-img">
+        <div class="banner-img lg">
+
+        </div>
+    </div>
 </body>
 </html>

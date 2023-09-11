@@ -9,8 +9,7 @@
 </head>
 <body>
     <header class="banner">
-        <h1>Mon Site Web</h1>
-        <nav>
+        <nav class="nav-header">
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">À propos</a></li>
