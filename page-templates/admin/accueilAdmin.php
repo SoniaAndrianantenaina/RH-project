@@ -6,11 +6,11 @@
     <title>Accueil Admin</title>
 </head>
 <body>
-    <?php include 'header.html'; ?>
+    <?php include '../banner/header.php'; ?>
 
     <div class="banner-img">
         <div class="banner-img lg">
-
+            hello
         </div>
     </div>
 </body>
