@@ -13,16 +13,51 @@
         <div class='block-ajoutCol__paragraphe'>
             <div class='block-ajoutCol__text'>
                 <h2 class='block-ajoutCol subtitle-collab'>Nouveau Collaborateur</h2>
-               
-                    <h3 class='block-ajoutCol cause-collab'>
-                        La meilleure des façons de commencer, c'est de prévenir les équipes internes qu'un
-                        <strong>nouveau collaborateur</strong> va rejoindre l'entreprise.
-                    </h3>
-              
+
+                <h3 class='block-ajoutCol cause-collab'>
+                    La meilleure des façons de commencer, c'est de prévenir les équipes internes qu'un
+                    <strong>nouveau collaborateur</strong> va rejoindre l'entreprise.
+                </h3>
+
             </div>
         </div>
 
     </section>
 
-    hello
+    <section class="formulaire">
+        <div class="formulaire-collab">
+            <div class="block-annonces__item__title center">
+                <h2 class='title-h2'>VEUILLEZ REMPLIR LE FORMULAIRE SUIVANT :</h2>
+            </div>
+
+            <div class="formulaire-collab__content">
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Département">
+                </div>
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Salaire">
+                </div>
+                
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Date début">
+                </div>
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Poste">
+                </div>
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Type Contrat">
+                </div>
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" name="" id="" value="Date fin">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </main>

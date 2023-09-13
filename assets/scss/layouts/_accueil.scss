@@ -53,6 +53,11 @@
             color: $color-primary;
             margin-top: 45px;
             margin-bottom: 45px;
+
+            &.center{
+                margin-top: 80px;
+                text-align: center;
+            }
         }
     }
 
