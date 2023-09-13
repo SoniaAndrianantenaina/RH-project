@@ -16,12 +16,12 @@
     }
 
     &__section{ 
+        position: absolute;
         display: grid;
         grid-template-columns: 54% 1fr;
         z-index: 2; 
         top: 0;
         width: 100%;
-        position: absolute;
 
     }
 
