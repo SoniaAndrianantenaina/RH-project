@@ -11,7 +11,7 @@
 
 <body>
     <main>
-        <div class="block">
+        <div class="block-login">
         
             <div class="main-section section-one">
     

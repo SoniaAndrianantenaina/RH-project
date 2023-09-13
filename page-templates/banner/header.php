@@ -31,6 +31,9 @@
                         <li>
                             <a href="#" class="cntNav-Link">Candidatures</a>
                         </li>
+                        <li>
+                            <a href="#" class="cntNav-Link">Annonces</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
