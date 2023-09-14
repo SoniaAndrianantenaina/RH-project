@@ -24,6 +24,12 @@
        margin-bottom: 45px;
     }
 
+    &.lg-bigger {
+        width: 150px;
+        height: 10px;
+        border-radius: 11px;
+     }
+
     &.lg-plus{
         font-size: 30px;
         margin-left: 138px;
@@ -58,4 +64,30 @@
         color: $white;
         background-color: $color-primary;
     }
+}
+
+.boutons{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $white;
+        border-radius: 14px;
+        width: 150px;
+        height: 40px;
+        margin-right: 25px;
+        font-size: 22px;
+        &__middle-btn{
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+
+.bleu-foncé{
+    background-color: $color-primary;
 }

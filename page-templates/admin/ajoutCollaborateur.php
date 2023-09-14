@@ -61,7 +61,7 @@
             </div>
 
                 <div class="btn-générer">
-                    <a href="" class="btn-blue primary">Générer identifiant et contrat</a>
+                    <a href="envoyerIdentifiant.php" class="btn-blue primary">Générer identifiant et contrat</a>
                 </div>
 
         </div>

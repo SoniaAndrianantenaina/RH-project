@@ -22,7 +22,18 @@
             font-size: 32px;
             margin-top: 52px;
             font-weight: bold;
+
+            &.bottom{
+                margin-bottom: 45px;
+            }
         }
+
+        &.bleu-clair{
+            background-color: $color-secondary;
+            width: 440px;
+            height: 430px;
+            border-radius: 40px;
+        }   
     }
 
     &.section-two {
@@ -34,6 +45,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    &.identifiant{
+        font-size: 14px;
     }
 }
 
