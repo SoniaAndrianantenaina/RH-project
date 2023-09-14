@@ -63,6 +63,11 @@
         text-decoration: none;
         color: $white;
         background-color: $color-primary;
+
+        &.medium{
+            width: 260px;
+            height: 40px;
+        }
     }
 }
 

@@ -24,3 +24,26 @@ input{
 strong{
     font-weight: 600;
 }
+
+input[type="number"]::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: $color-secondary;
+}
+
+
+select {
+    border: 1px solid $color-primary;
+    background: $white;
+    color: $color-secondary;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    width: 49vh;
+    height: 67px;
+    padding: 13.5px 20px;
+    margin-bottom: 7px;
+    margin-top: 23px;
+    font-size: 26px;
+}
