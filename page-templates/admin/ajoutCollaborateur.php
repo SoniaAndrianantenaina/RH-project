@@ -26,37 +26,44 @@
 
     <section class="formulaire">
         <div class="formulaire-collab">
-            <div class="block-annonces__item__title center">
+            <div class="block-annonces__item__title">
                 <h2 class='title-h2'>VEUILLEZ REMPLIR LE FORMULAIRE SUIVANT :</h2>
             </div>
 
             <div class="formulaire-collab__content">
 
                 <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Département">
+                    <input type="text" class="btn-blue" name="" id="" value="Département">
                 </div>
 
                 <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Salaire">
+                    <input type="text" class="btn-blue" name="" id="" value="Poste">
+                </div>
+
+                <div class="formulaire-collab__content input">
+                    <input type="text" class="btn-blue" name="" id="" value="Salaire">
                 </div>
                 
                 <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Date début">
+                    <input type="text" class="btn-blue" name="" id="" value="Type Contrat">
                 </div>
 
                 <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Poste">
+                    <input type="text" class="btn-blue" name="" id="" value="Date début">
                 </div>
+
 
                 <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Type Contrat">
+                    <input type="text" class="btn-blue" name="" id="" value="Date fin">
                 </div>
 
-                <div class="formulaire-collab__content input">
-                    <input type="text" name="" id="" value="Date fin">
-                </div>
-
+                
             </div>
+
+                <div class="btn-générer">
+                    <a href="" class="btn-blue primary">Générer identifiant et contrat</a>
+                </div>
+
         </div>
     </section>
 

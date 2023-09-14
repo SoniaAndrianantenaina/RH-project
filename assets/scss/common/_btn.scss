@@ -32,3 +32,30 @@
         height: 37px;
     }
 }
+
+.btn-blue{
+    border: 1px solid $color-primary;
+    background: $white;
+    color: $color-secondary;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    width: 45vh;
+    height: 38px;
+    padding: 13.5px 20px;
+    margin-bottom: 7px;
+    margin-top: 23px;
+    font-size: 26px;
+
+    &.primary{
+        margin-top: 45px;
+        width: 324px;
+        height: 71px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        background-color: $color-primary;
+    }
+}
