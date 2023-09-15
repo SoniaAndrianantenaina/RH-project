@@ -10,36 +10,60 @@
 </head>
 
 <body>
-    <header class="banner">
-        <div class="nav-header show-menu">
-            <div class="nav-header logo">
-               <a href=""><img src="" alt=""></a>
-            </div>
-
-            <div class="nav-header cntNavBox">
-                <nav>
-                    <ul class="cntNav"> 
-                        <li>
-                            <a href="#" class="cntNav-Link">Accueil</a>
-                        </li>
-                        <li>
-                            <a href="#" class="cntNav-Link">Départements</a>
-                        </li>
-                        <li>
-                            <a href="#" class="cntNav-Link">Employés</a>
-                        </li>
-                        <li>
-                            <a href="#" class="cntNav-Link">Candidatures</a>
-                        </li>
-                        <li>
-                            <a href="#" class="cntNav-Link">Annonces</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+<header id="sectHeader" class="sectHeader sectHeader--sticky">
+        <div class="container">
+            <div class="headerIntern"> 
+                <div class="cntlogo">
+                    <a href="index.html">
+                        <img class="img-fluid" src="../../assets/images/logo/logo.jpg" alt="Logo">
+                    </a>
+                </div>
+                <div class="boxNavIntern">
+                    <div class="btnBox">
+                        <div id="btnnav">
+                            <div class="btninter">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>                 
+                        </div>
+                    </div>   
+                    <nav id="navigation"> 
+                        <div class="cntNavBox"> 
+                            <ul class="cntNav">
+                                <li class="current">
+                                    <a href="#" class="text-decoration">
+                                        Accueil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration">
+                                        Départements
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration">
+                                        Employés
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration">
+                                        Candidatures
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration">
+                                        Annonces
+                                    </a>
+                                </li>
+                            </ul> 
+                        </div> 
+                    </nav>  
+                </div>
+            </div>   
         </div>
-
     </header>
+  
 </body>
 
 </html>
