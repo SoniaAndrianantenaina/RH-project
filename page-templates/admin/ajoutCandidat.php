@@ -77,22 +77,32 @@
                     <input type="number" class="btn-blue" name="" id="" placeholder="Nombre enfants">
                 </div>
 
-                <div class="formulaire-collab__content input">
-                    <input type="file" class="btn-blue" name="" id="" placeholder="Photo">
+                <div>
+                    <label for="photo">Sélectionnez une photo :</label> <br>
+                    <input type="file" class="btn-blue" name="" id="">
                 </div>
 
-                <div class="formulaire-collab__content input">
-                    <input type="text" class="btn-blue" name="" id="" placeholder="CV">
+                <div>
+                    <label for="CV">Sélectionnez un CV :</label> <br>
+                    <input type="file" class="btn-blue" name="" id="">
                 </div>
 
-                <div class="formulaire-collab__content input">
-                    <input type="text" class="btn-blue" name="" id="" placeholder="Département">
+                <div>
+                    <label for="LM">Sélectionnez une Lettre de motivation : </label>
+                    <input type="file" class="btn-blue" name="" id="">
                 </div>
 
-                <div class="formulaire-collab__content input">
-                    <input type="text" class="btn-blue" name="" id="" placeholder="Poste">
+                <div class="select">
+                    <select name="" id="">
+                        <option value="">Départements</option>
+                    </select>
                 </div>
 
+                <div class="select">
+                    <select name="" id="">
+                        <option value="">Postes</option>
+                    </select>
+                </div>
 
             </div>
 
