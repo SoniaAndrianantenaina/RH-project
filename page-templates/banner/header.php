@@ -47,7 +47,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="text-decoration">
+                                    <a href="../admin/listeCandidats.php" class="text-decoration">
                                         Candidatures
                                     </a>
                                 </li>

@@ -27,7 +27,7 @@ strong{
 
 
 
-select {
+.select {
     border: 1px solid $color-primary;
     background: $white;
     color: $color-secondary;
@@ -41,6 +41,10 @@ select {
     margin-bottom: 7px;
     margin-top: 23px;
     font-size: 20px;
+
+    &.white{
+        width: 38vh;
+    }
 }
 
 textarea{
@@ -68,4 +72,8 @@ label{
 
 input[type="file"]{
     font-size: 20px;
+}
+
+.bg-color{
+    background-color: $light-grey;
 }
